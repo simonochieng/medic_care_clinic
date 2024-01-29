@@ -1,0 +1,121 @@
+.nav-right {
+  float: right;
+}
+
+.nav-left {
+  float: left;
+}
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 20px;
+}
+.txt {
+  float: right;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+ul :hover {
+  color: blue;
+  cursor: pointer;
+}
+.clearfix {
+  /* float: left; */
+  clear: both;
+}
+.bg-image {
+  background-image: url(../images/bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.txt {
+  text-align: center;
+  padding-top: 10;
+}
+.about-us {
+  padding: 20px;
+  margin: 20px;
+  background-color: #496bf2;
+  color: white;
+}
+.b-app {
+  padding: 20px;
+  margin: 20px;
+  background-color: #2dd6c1;
+  color: white;
+}
+.services {
+  float: left;
+  box-shadow: 0 0 5px;
+  margin: 25px;
+  padding: 30;
+  width: 17%;
+}
+.clearfix {
+  clear: both;
+}
+.doctor {
+  float: left;
+}
+.care {
+  float: right;
+}
+.si {
+  padding: 20px;
+  margin: 30px;
+  background-color: blue;
+  color: white;
+}
+.patients{
+  text-align: center;
+}
+.span1{
+  color:blue;
+}
+.span2{
+  color: blue;
+}
+
+.people{
+  text-align: center;
+}
+.span3{
+  color:#2dd6c1;
+}
+.span4{
+  color: #496bf2;
+  
+}
+.symo{
+  margin:0 auto;
+  width:fit-content;
+}
+
+.contact{
+  background-image: url(../images/ezgif-2-81a50240fb.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.inputs-container{
+  position: absolute;
+  top: 150px;
+  left: 50px;
+}
+.sk{
+  padding: 15px;
+  margin: 20px;
+  background-color: blue;
+  color: white;
+}
+.lion{
+  display: flex;
+}
