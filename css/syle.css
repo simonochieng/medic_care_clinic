@@ -1,3 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.container{
+  width:80%;
+  margin:0 auto;
+}
+h1 {
+  color: #496bf2;
+}
+
 .nav-right {
   float: right;
 }
@@ -6,22 +22,22 @@
   float: left;
 }
 
-ul li {
+nav ul li {
   display: inline-block;
   list-style-type: none;
   padding: 20px;
 }
 .txt {
-  float: right;
-  padding-top: 50px;
-  padding-right: 50px;
+  float:right;
+  padding-top:20px;
+  padding-right:100px;
+  padding-left: 20px;
 }
-ul :hover {
+ul:hover {
   color: blue;
   cursor: pointer;
 }
 .clearfix {
-  /* float: left; */
   clear: both;
 }
 .bg-image {
@@ -53,10 +69,11 @@ ul :hover {
   box-shadow: 0 0 5px;
   margin: 25px;
   padding: 30;
-  width: 17%;
+  width:29%;
 }
-.clearfix {
-  clear: both;
+
+.services h2 {
+  color: #496bf2;
 }
 .doctor {
   float: left;
@@ -64,61 +81,83 @@ ul :hover {
 .care {
   float: right;
 }
+.ab {
+  color: #496bf2;
+}
+.us {
+  color: #2dd6c1;
+}
+.words{
+  padding:20px;
+}
 .si {
   padding: 20px;
   margin: 30px;
   background-color: blue;
   color: white;
 }
-.patients{
+.patients {
   text-align: center;
 }
-.span1{
-  color:blue;
+.span1 {
+  color: blue;
 }
-.span2{
+.span2 {
   color: blue;
 }
 
-.people{
-  text-align: center;
-}
-.span3{
-  color:#2dd6c1;
-}
-.span4{
-  color: #496bf2;
-  
-}
-.symo{
-  margin:0 auto;
-  width:fit-content;
-}
 
-.contact{
+.span3 {
+  color: #2dd6c1;
+}
+.span4 {
+  color: #496bf2;
+}
+.symo {
+  margin: 0 auto;
+  width: fit-content;
+}
+.testimonial-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 6px;
+}
+.blue {
+  background-color: #496bf2;
+}
+.green {
+  background-color: #2dd6c1;
+}
+.contact {
   background-image: url(../images/ezgif-2-81a50240fb.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
-  width: 100vw;
   position: relative;
 }
 
-.inputs-container{
-  position: absolute;
-  top: 150px;
-  left: 50px;
-}
-.sk{
-  padding: 15px;
-  margin: 20px;
-  background-color: blue;
+
+.sk {
+  padding: 10px 20px;
+  background-color: #496bf2;
   color: white;
+  display: block;
+  margin-left: 10px;
+}
+.footer-content{
+  float: left;
+  width: 25%;
+}
+li {
+  list-style-type: none;
+}
+.life,textarea {
+  padding: 20px;
+  margin: 10px;
+  width: 50%;
 }
 .lion{
-  display: flex;
-}
-.diff{
-width: 25%;
+  margin-top:5%;
 }
